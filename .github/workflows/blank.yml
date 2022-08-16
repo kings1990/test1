@@ -1,0 +1,13 @@
+- name: Image Actions
+  uses: calibreapp/image-actions@1.1.0
+  with:
+    # GitHub Token
+    githubToken: 
+    # JPEG quality level
+    jpegQuality: # optional, default is 80
+    # PNG quality level
+    pngQuality: # optional, default is 80
+    # WEBP quality level
+    webpQuality: # optional, default is 80
+    # Paths to ignore during search
+    ignorePaths: # optional, default is node_modules/**
