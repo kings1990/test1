@@ -27,7 +27,7 @@ body:
         - label: I use plugin version 2021.1.4+
           required: true
 
-        - label: I have license of Restful Fast Request
+        - label: I have the license of **Restful Fast Request**
           required: true
 
         - label: I followed the [docs](https://api-buddy.com) and I double checked my configuration.
@@ -69,11 +69,11 @@ body:
       value: |
         ## Describe the bug
 
-        > If applicable, add screenshots and log to help explain your problem.                
+        > If applicable, add screenshots to help explain your problem.                
   - type: textarea
     id: description
     attributes:
-      label: 
+      label: Describe the bug
       description: A clear and concise description of what the bug is.
     validations:
       required: true
@@ -82,5 +82,5 @@ body:
     id: logs
     attributes:
       label: Error log
-      description: Please copy and paste error log . This will help us better find and solve problems
+      description: Please copy and paste the error log. This will help us better to find and solve problems
 
